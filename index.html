@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caminho do Produto</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Caminho do Produto</h1>
+
+    <div class="product-selector-container">
+      <label for="productSelect" class="product-select-label">
+        <i class="fa-solid fa-box-open"></i>
+        Selecione seu produto:
+      </label>
+      <select id="productSelect" class="product-select">
+        <option value="leite">Leite</option>
+        <option value="cafe">Café</option>
+        <option value="soja">Soja</option>
+      </select>
+    </div>
+
+    <div class="simulator">
+      <div class="steps-container"></div>
+
+      <div class="content">
+        <div class="text-content">
+          <h2 id="stepTitle"></h2>
+          <p id="stepDesc"></p>
+        </div>
+        <div class="image-content">
+          <img id="stepImage" src="" alt="">
+        </div>
+      </div>
+
+      <div class="nav-buttons">
+        <button id="prevBtn" class="nav-btn prev" disabled>
+          <i class="fa-solid fa-chevron-left"></i>
+          Anterior
+        </button>
+        <button id="nextBtn" class="nav-btn next">
+          Próximo
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+  <footer>
+      <a href="#"><i class="fa-brands fa-github"></i></a>
+    <p>© All Rigths Reserved - Caminho do Produto 2025</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
