@@ -74,7 +74,7 @@ const data = {
       title: "Colheita",
       desc: "Máquinas modernas colhem a soja no tempo certo da safra.",
       img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
-      icon: "fa-combine-harvester"
+      icon: "fa-tractor"
     },
     { 
       title: "Transporte",
