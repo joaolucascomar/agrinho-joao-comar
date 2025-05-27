@@ -9,13 +9,13 @@ const data = {
     { 
       title: "Colheita",
       desc: "As vacas são ordenhadas diariamente para colher o leite fresco.",
-      img: "https://images.unsplash.com/photo-1564501048609-37b6ebf81a22?auto=format&fit=crop&w=400&q=60",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
       icon: "fa-cow"
     },
     { 
       title: "Transporte",
       desc: "O leite é transportado em caminhões refrigerados até as indústrias.",
-      img: "https://images.unsplash.com/photo-1587145907985-4e7db4a16820?auto=format&fit=crop&w=400&q=60",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
       icon: "fa-truck"
     },
     { 
@@ -27,7 +27,7 @@ const data = {
     { 
       title: "Consumo",
       desc: "O leite e derivados são consumidos pela população nas cidades.",
-      img: "https://images.unsplash.com/photo-1510626176961-4b9c0d4af50a?auto=format&fit=crop&w=400&q=60",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
       icon: "fa-cart-shopping"
     }
   ],
@@ -35,31 +35,31 @@ const data = {
     { 
       title: "Plantio",
       desc: "O café é plantado em regiões específicas do Paraná, com clima ideal.",
-      img: "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=400&q=60",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
       icon: "fa-seedling"
     },
     { 
       title: "Colheita",
       desc: "A colheita do café é feita manualmente para garantir a qualidade.",
-      img: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=400&q=60",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
       icon: "fa-mug-hot"
     },
     { 
       title: "Transporte",
       desc: "Os grãos são transportados para torrefação e embalagem.",
-      img: "https://images.unsplash.com/photo-1528825871115-3581a5387919?auto=format&fit=crop&w=400&q=60",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
       icon: "fa-truck"
     },
     { 
       title: "Mercado",
       desc: "O café embalado chega aos pontos de venda para o consumidor final.",
-      img: "https://images.unsplash.com/photo-1486308510493-cb51a4b8f4ca?auto=format&fit=crop&w=400&q=60",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
       icon: "fa-store"
     },
     { 
       title: "Consumo",
       desc: "O café é consumido nas cidades, em casas, cafés e restaurantes.",
-      img: "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=400&q=60",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
       icon: "fa-mug-saucer"
     }
   ],
@@ -67,31 +67,31 @@ const data = {
     { 
       title: "Plantio",
       desc: "A soja é plantada em extensas áreas de produção mecanizada.",
-      img: "https://images.unsplash.com/photo-1622531581600-30b5e9c9e726?auto=format&fit=crop&w=400&q=60",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
       icon: "fa-seedling"
     },
     { 
       title: "Colheita",
       desc: "Máquinas modernas colhem a soja no tempo certo da safra.",
-      img: "https://images.unsplash.com/photo-1623265184215-d02c6593ee3b?auto=format&fit=crop&w=400&q=60",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
       icon: "fa-combine-harvester"
     },
     { 
       title: "Transporte",
       desc: "A soja colhida é levada até as indústrias de processamento.",
-      img: "https://images.unsplash.com/photo-1608462345039-7ec2a65c4d90?auto=format&fit=crop&w=400&q=60",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
       icon: "fa-truck"
     },
     { 
       title: "Mercado",
       desc: "Parte da soja é exportada, outra parte é comercializada internamente.",
-      img: "https://images.unsplash.com/photo-1567752886642-7b69f4c5c1ff?auto=format&fit=crop&w=400&q=60",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
       icon: "fa-earth-americas"
     },
     { 
       title: "Consumo",
       desc: "Óleo, ração e outros produtos derivados são utilizados por consumidores e indústrias.",
-      img: "https://images.unsplash.com/photo-1631943405653-60bdf1ac6b52?auto=format&fit=crop&w=400&q=60",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
       icon: "fa-industry"
     }
   ]
