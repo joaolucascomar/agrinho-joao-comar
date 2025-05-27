@@ -4,13 +4,13 @@ const data = {
       title: "Criação",
       desc: "O leite provem de vacas criadas livres que se se alimentam em pastagens.",
       img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
-      icon: "fa-seedling"
+      icon: "fa-cow"
     },
     { 
       title: "Ordenha",
       desc: "As vacas são ordenhadas diariamente para colher o leite fresco.",
       img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
-      icon: "fa-cow"
+      icon: "fa-bucket"
     },
     { 
       title: "Transporte",
