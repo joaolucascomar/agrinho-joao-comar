@@ -1,5 +1,6 @@
 :root {
   --main-green: #2a7a2a;
+  --dark-green: #043b22;
   --details-step: #f0a500;
   --bg-step: #e0e0e0;
   --size-step: 80px;
@@ -210,7 +211,7 @@ h1 {
 }
 
 footer {
-  background-color: #043b22;
+  background-color: var(--dark-green);
   display: flex;
   justify-content: center;
   align-items: center;
