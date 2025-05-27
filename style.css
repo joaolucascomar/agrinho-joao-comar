@@ -25,6 +25,8 @@ body {
 
 h1 {
   color: var(--main-green);
+  text-decoration: underline;
+  text-decoration-color: var(--dark-green);
   text-align: center;
   margin: 2rem 0;
   font-size: 2.5rem;
