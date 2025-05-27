@@ -21,7 +21,7 @@ const data = {
     { 
       title: "Mercado",
       desc: "Os produtos lácteos chegam aos supermercados e feiras para venda.",
-      img: "https://images.unsplash.com/photo-1542838687-5c5a3657d264?auto=format&fit=crop&w=400&q=60",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
       icon: "fa-store"
     },
     { 
