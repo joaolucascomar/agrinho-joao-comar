@@ -247,7 +247,7 @@ footer a {
   }
 
   .steps-container {
-    gap: 15px;
+    gap: 7.5px;
   }
 
   .step {
@@ -257,6 +257,10 @@ footer a {
 
   .step i {
     font-size: 1.6rem;
+  }
+
+  .step-label {
+    font-size: 0.8rem;
   }
 
   .text-content h2 {
