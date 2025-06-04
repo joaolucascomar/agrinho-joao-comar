@@ -66,7 +66,7 @@ const data = {
   soja: [
     { 
       title: "Plantio",
-      desc: "A soja é plantada em extensas áreas de produção mecanizada.",
+      desc: "O trigo é plantada em extensas áreas de produção mecanizada.",
       img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
       icon: "fa-seedling"
     },
@@ -94,7 +94,167 @@ const data = {
       img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
       icon: "fa-industry"
     }
-  ]
+  ],
+  carne_bovina: [
+    { 
+      title: "Criação",
+      desc: "A carne provem de vacas criadas livres que se se alimentam em pastagens.",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
+      icon: "fa-cow"
+    },
+    { 
+      title: "Abate",
+      desc: "As vacas são abatidas de maneira indolor.",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
+      icon: "fa-industry"
+    },
+    { 
+      title: "Transporte",
+      desc: "A carne bovina é transportado em caminhões refrigerados até as indústrias.",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
+      icon: "fa-truck"
+    },
+    { 
+      title: "Mercado",
+      desc: "Os produtos chegam aos supermercados e açougues para venda.",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
+      icon: "fa-store"
+    },
+    { 
+      title: "Consumo",
+      desc: "A carne bovina é consumida pela população nas cidades.",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
+      icon: "fa-cart-shopping"
+    }
+  ],
+  frango: [
+    { 
+      title: "Criação",
+      desc: "A carne provem de vacas criadas livres que se se alimentam em pastagens.",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
+      icon: "fa-egg"
+    },
+    { 
+      title: "Abate",
+      desc: "As galinhas são abatidas de maneira indolor.",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
+      icon: "fa-drumstick-bite"
+    },
+    { 
+      title: "Transporte",
+      desc: "A carne é transportado em caminhões refrigerados até as indústrias.",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
+      icon: "fa-truck"
+    },
+    { 
+      title: "Mercado",
+      desc: "Os produtos chegam aos supermercados e açougues para venda.",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
+      icon: "fa-store"
+    },
+    { 
+      title: "Consumo",
+      desc: "A carne é consumida pela população nas cidades.",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
+      icon: "fa-cart-shopping"
+    }
+  ],
+  erva_mate: [
+    { 
+      title: "Plantio",
+      desc: "A Erva Mate é plantado em regiões específicas do Paraná, com clima ideal.",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
+      icon: "fa-seedling"
+    },
+    { 
+      title: "Colheita",
+      desc: "A colheita da Erva Mate é feita manualmente para garantir a qualidade.",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
+      icon: "fa-cannabis"
+    },
+    { 
+      title: "Transporte",
+      desc: "Os grãos são transportados para seleção e embalagem.",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
+      icon: "fa-truck"
+    },
+    { 
+      title: "Mercado",
+      desc: "A Erva Mate embalado chega aos pontos de venda para o consumidor final.",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
+      icon: "fa-store"
+    },
+    { 
+      title: "Consumo",
+      desc: "A Erva Mate é consumido nas cidades, em casas e comunidades.",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
+      icon: "fa-mug-saucer"
+    }
+  ],
+  trigo: [
+    { 
+      title: "Plantio",
+      desc: "O trigo é plantada em extensas áreas de produção mecanizada.",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
+      icon: "fa-wheat-awn"
+    },
+    { 
+      title: "Colheita",
+      desc: "Máquinas modernas colhem o trigo no tempo certo da safra.",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
+      icon: "fa-tractor"
+    },
+    { 
+      title: "Transporte",
+      desc: "O trigo colhido é levada até as indústrias de processamento.",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
+      icon: "fa-truck"
+    },
+    { 
+      title: "Mercado",
+      desc: "Parte do trigo é exportada, outra parte é comercializada internamente.",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
+      icon: "fa-earth-americas"
+    },
+    { 
+      title: "Consumo",
+      desc: "Trigo, pão e outros produtos derivados são utilizados por consumidores e indústrias.",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
+      icon: "fa-bread-slice"
+    }
+  ],
+  milho: [
+    { 
+      title: "Plantio",
+      desc: "O milho é plantada em extensas áreas de produção mecanizada.",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
+      icon: "fa-seedling"
+    },
+    { 
+      title: "Colheita",
+      desc: "Máquinas modernas colhem o milho no tempo certo da safra.",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
+      icon: "fa-tractor"
+    },
+    { 
+      title: "Transporte",
+      desc: "O milho colhido é levada até as indústrias de processamento.",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
+      icon: "fa-truck"
+    },
+    { 
+      title: "Mercado",
+      desc: "Parte do milho é exportada, outra parte é comercializada internamente.",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
+      icon: "fa-earth-americas"
+    },
+    { 
+      title: "Consumo",
+      desc: "Milho natural e outros produtos derivados são utilizados por consumidores e indústrias.",
+      img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60",
+      icon: "fa-industry"
+    }
+  ],
 };
 
 const DOM = {
