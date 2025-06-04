@@ -233,6 +233,10 @@ footer a {
 }
 
 @media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
   .simulator {
     padding: 2rem;
   }
