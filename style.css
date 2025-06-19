@@ -109,13 +109,13 @@ body {
 .flashcards-container {
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 4rem;
   flex-wrap: wrap;
   margin-top: 2rem;
 }
 .flashcard {
-  width: 120px;
-  height: 120px;
+  width: 180px;
+  height: 180px;
   perspective: 800px;
 }
 .flashcard-inner {
