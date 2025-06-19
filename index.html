@@ -8,22 +8,81 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Navbar -->
   <nav class="navbar">
-    <div class="container nav-container">
-      <a href="#" class="brand">Caminho do Agro</a>
+    <div class="container">
+      <a href="#" class="nav-logo">Caminho do Agro</a>
       <ul class="nav-links">
-        <li><a href="#simulator">Caminho do Produto</a></li>
-        <li><a href="#info-section">Informativos</a></li>
-        <li><a href="/sobre-nos.html">Sobre Nós</a></li>
+        <li><a href="#informacoes">Informações</a></li>
+        <li><a href="#simulador">Caminho do Produto</a></li>
+        <li><a href="sobre.html">Sobre Nós</a></li>
       </ul>
     </div>
   </nav>
 
-  <div class="container">
+  <section id="informacoes" class="info-section">
+    <h2>Conexão Campo-Cidade</h2>
+    <p>
+      A cadeia produtiva do agronegócio é responsável por conectar o campo à cidade por meio de um fluxo logístico estruturado em diversas etapas: produção, beneficiamento, transporte, distribuição e consumo. Essa integração movimenta a economia, garante o abastecimento alimentar da população urbana e gera empregos em todas as regiões do país.
+    </p>
+
+    <div class="cards-container">
+      <div class="info-card">
+        <div class="card-icon"><i class="fa-solid fa-tractor"></i></div>
+        <h3>Produção Rural</h3>
+        <p>Baseada em propriedades familiares e grandes fazendas, envolve cultivo, pecuária e extração vegetal.</p>
+      </div>
+      <div class="info-card">
+        <div class="card-icon"><i class="fa-solid fa-industry"></i></div>
+        <h3>Beneficiamento</h3>
+        <p>Transformação da matéria-prima em produtos com valor agregado nas indústrias do setor.</p>
+      </div>
+      <div class="info-card">
+        <div class="card-icon"><i class="fa-solid fa-truck"></i></div>
+        <h3>Logística</h3>
+        <p>Transporte e distribuição do produto em condições adequadas até os centros urbanos e pontos de venda.</p>
+      </div>
+    </div>
+
+    <div id="chart">[Gráfico ou Indicadores Aqui]</div>
+
+    <div class="flashcards-container">
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">
+            <i class="fa-solid fa-leaf"></i>
+          </div>
+          <div class="flashcard-back">
+            23% da produção agrícola nacional vem da agricultura familiar, segundo o IBGE.
+          </div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">
+            <i class="fa-solid fa-warehouse"></i>
+          </div>
+          <div class="flashcard-back">
+            O Brasil exporta mais de 200 milhões de toneladas de grãos por ano.
+          </div>
+        </div>
+      </div>
+      <div class="flashcard">
+        <div class="flashcard-inner">
+          <div class="flashcard-front">
+            <i class="fa-solid fa-utensils"></i>
+          </div>
+          <div class="flashcard-back">
+            A cadeia do agro representa cerca de 25% do PIB nacional, segundo a CNA.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container" id="simulador">
     <h1>Caminho do Produto</h1>
 
-    <div id="simulator" class="product-selector-container">
+    <div class="product-selector-container">
       <label for="productSelect" class="product-select-label">
         <i class="fa-solid fa-box-open"></i>
         Selecione seu produto:
@@ -64,61 +123,12 @@
         </button>
       </div>
     </div>
-
-    <!-- Nova seção Informativa -->
-    <section id="info-section" class="info-section">
-      <h2>Conexão Campo – Cidade</h2>
-      <p>
-        A cadeia produtiva que liga o campo à cidade envolve diversas etapas integradas de forma inteligente,
-        garantindo que produtos agrícolas sejam cultivados, processados, distribuídos e cheguem com qualidade
-        ao consumidor urbano. Conheça como funciona esse ecossistema vital para a economia e a segurança
-        alimentar.
-      </p>
-
-      <div class="cards-container">
-        <div class="info-card">
-          <i class="fa-solid fa-seedling card-icon"></i>
-          <h3>Produção Rural</h3>
-          <p>
-            Inicia-se no planejamento das lavouras e criações, com técnicas de manejo sustentável e
-            uso consciente de recursos naturais para maximizar a produtividade e preservar o meio ambiente.
-          </p>
-        </div>
-        <div class="info-card">
-          <i class="fa-solid fa-industry card-icon"></i>
-          <h3>Processamento</h3>
-          <p>
-            As matérias‑primas são transformadas em produtos finais — como leite pasteurizado, grãos torrados
-            e carnes embaladas — em indústrias especializadas, respeitando normas sanitárias rigorosas.
-          </p>
-        </div>
-        <div class="info-card">
-          <i class="fa-solid fa-truck-fast card-icon"></i>
-          <h3>Logística</h3>
-          <p>
-            Transportes refrigerados, rotas otimizadas e armazenagem adequada garantem a integridade
-            dos produtos durante o deslocamento do campo até centros de distribuição urbana.
-          </p>
-        </div>
-        <div class="info-card">
-          <i class="fa-solid fa-store card-icon"></i>
-          <h3>Comercialização</h3>
-          <p>
-            Supermercados, feiras livres e plataformas de e‑commerce conectam o produto ao consumidor,
-            oferecendo variedade, rastreabilidade e informações claras sobre origem e qualidade.
-          </p>
-        </div>
-      </div>
-    </section>
   </div>
 
   <footer>
-    <div class="container">
-      <a href="https://github.com/joaolucascomar/agrinho-joao-comar" class="github"><i class="fa-brands fa-github"></i></a>
-      <p>© Todos os Direitos Reservados - Caminho do Agro 2025</p>
-    </div>
+    <a href="https://github.com/joaolucascomar/agrinho-joao-comar"><i class="fa-brands fa-github"></i></a>
+    <p>© Todos os direitos reservados - Caminho do Agro 2025</p>
   </footer>
-
   <script src="script.js"></script>
 </body>
 </html>
