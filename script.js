@@ -33,7 +33,7 @@ const data = {
 
   frango: [
     { title: "Criação", desc: "Frangos de corte são criados em galpões climatizados com densidade de até 14 aves/m². Ração tem 22% de proteína bruta para ótimo desenvolvimento.", img: "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=crop&w=400&q=60", icon: "fa-egg" },
-    { title: "Abate e Resfriam", desc: "Insensibilização por CO₂ seguida de sangria e resfriamento em túnel a 0–4°C em até 90 minutos para reduzir bactérias.", img: "https://images.unsplash.com/photo-1571046814783-81cce8dfd9b0?auto=format&fit=crop&w=400&q=60", icon: "fa-drumstick-bite" },
+    { title: "Abate e Resfriamento", desc: "Insensibilização por CO₂ seguida de sangria e resfriamento em túnel a 0–4°C em até 90 minutos para reduzir bactérias.", img: "https://images.unsplash.com/photo-1571046814783-81cce8dfd9b0?auto=format&fit=crop&w=400&q=60", icon: "fa-drumstick-bite" },
     { title: "Processamento", desc: "Desossa automatizada e embalagens flow-pack sob atmosfera controlada para vida útil de até 14 dias.", img: "https://images.unsplash.com/photo-1540126651425-7bfaeeb3e23b?auto=format&fit=crop&w=400&q=60", icon: "fa-industry" },
     { title: "Logística", desc: "Câmaras frias com fluxo de ar unidirecional e QR code para rastreabilidade completa.", img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60", icon: "fa-truck" },
     { title: "Venda", desc: "Disponível em supermercados e fast foods, com inspeções diárias de frescor, cor e textura.", img: "https://images.unsplash.com/photo-1553173545-1e90d54d4d4a?auto=format&fit=crop&w=400&q=60", icon: "fa-store" }

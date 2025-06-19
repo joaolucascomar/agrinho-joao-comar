@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Caminho do Produto</title>
+  <title>Caminho do Agro</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -19,66 +19,81 @@
     </div>
   </nav>
 
+  <!-- Seção Informativa Atualizada -->
   <section id="informacoes" class="info-section">
-    <h2>Conexão Campo-Cidade</h2>
-    <p>
-      A cadeia produtiva do agronegócio é responsável por conectar o campo à cidade por meio de um fluxo logístico estruturado em diversas etapas: produção, beneficiamento, transporte, distribuição e consumo. Essa integração movimenta a economia, garante o abastecimento alimentar da população urbana e gera empregos em todas as regiões do país.
-    </p>
+    <div class="container">
+      <h2>Conexão Campo‑Cidade</h2>
+      <p>
+        O agronegócio conecta o campo à cidade através de cinco etapas essenciais:
+        <strong>Produção Rural</strong>, <strong>Beneficiamento</strong>,
+        <strong>Logística</strong>, <strong>Distribuição</strong> e
+        <strong>Consumo</strong>. Juntas, elas garantem qualidade,
+        rastreabilidade e abastecimento contínuo dos centros urbanos.
+      </p>
 
-    <div class="cards-container">
-      <div class="info-card">
-        <div class="card-icon"><i class="fa-solid fa-tractor"></i></div>
-        <h3>Produção Rural</h3>
-        <p>Baseada em propriedades familiares e grandes fazendas, envolve cultivo, pecuária e extração vegetal.</p>
-      </div>
-      <div class="info-card">
-        <div class="card-icon"><i class="fa-solid fa-industry"></i></div>
-        <h3>Beneficiamento</h3>
-        <p>Transformação da matéria-prima em produtos com valor agregado nas indústrias do setor.</p>
-      </div>
-      <div class="info-card">
-        <div class="card-icon"><i class="fa-solid fa-truck"></i></div>
-        <h3>Logística</h3>
-        <p>Transporte e distribuição do produto em condições adequadas até os centros urbanos e pontos de venda.</p>
-      </div>
-    </div>
-
-    <div id="chart">[Gráfico ou Indicadores Aqui]</div>
-
-    <div class="flashcards-container">
-      <div class="flashcard">
-        <div class="flashcard-inner">
-          <div class="flashcard-front">
-            <i class="fa-solid fa-leaf"></i>
-          </div>
-          <div class="flashcard-back">
-            23% da produção agrícola nacional vem da agricultura familiar, segundo o IBGE.
-          </div>
+      <div class="cards-container">
+        <div class="info-card">
+          <i class="fa-solid fa-tractor card-icon"></i>
+          <h3>Produção Rural</h3>
+          <p>
+            Cultivo e criação em fazendas e pequenas propriedades,
+            com uso de práticas sustentáveis e manejo técnico do solo.
+          </p>
+        </div>
+        <div class="info-card">
+          <i class="fa-solid fa-industry card-icon"></i>
+          <h3>Beneficiamento</h3>
+          <p>
+            Processamento primário e secundário em unidades industriais,
+            aplicando controle de qualidade e normas sanitárias.
+          </p>
+        </div>
+        <div class="info-card">
+          <i class="fa-solid fa-truck card-icon"></i>
+          <h3>Logística</h3>
+          <p>
+            Transporte refrigerado e monitorado, com rotas planejadas
+            para reduzir perdas e garantir rastreabilidade.
+          </p>
         </div>
       </div>
-      <div class="flashcard">
-        <div class="flashcard-inner">
-          <div class="flashcard-front">
-            <i class="fa-solid fa-warehouse"></i>
-          </div>
-          <div class="flashcard-back">
-            O Brasil exporta mais de 200 milhões de toneladas de grãos por ano.
+
+      <div class="flashcards-container">
+        <div class="flashcard">
+          <div class="flashcard-inner">
+            <div class="flashcard-front">
+              <i class="fa-solid fa-seedling"></i>
+            </div>
+            <div class="flashcard-back">
+              23% da produção nacional vem da agricultura familiar (IBGE).
+            </div>
           </div>
         </div>
-      </div>
-      <div class="flashcard">
-        <div class="flashcard-inner">
-          <div class="flashcard-front">
-            <i class="fa-solid fa-utensils"></i>
+        <div class="flashcard">
+          <div class="flashcard-inner">
+            <div class="flashcard-front">
+              <i class="fa-solid fa-warehouse"></i>
+            </div>
+            <div class="flashcard-back">
+              Mais de 200 Mt de grãos exportados anualmente pelo Brasil.
+            </div>
           </div>
-          <div class="flashcard-back">
-            A cadeia do agro representa cerca de 25% do PIB nacional, segundo a CNA.
+        </div>
+        <div class="flashcard">
+          <div class="flashcard-inner">
+            <div class="flashcard-front">
+              <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="flashcard-back">
+              O agro responde por ~25% do PIB nacional (CNA).
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Simulador (sem nenhuma alteração) -->
   <div class="container" id="simulador">
     <h1>Caminho do Produto</h1>
 
@@ -126,8 +141,10 @@
   </div>
 
   <footer>
-    <a href="https://github.com/joaolucascomar/agrinho-joao-comar"><i class="fa-brands fa-github"></i></a>
-    <p>© Todos os direitos reservados - Caminho do Agro 2025</p>
+    <div class="container">
+      <a href="https://github.com/joaolucascomar/agrinho-joao-comar"><i class="fa-brands fa-github"></i></a>
+      <p>© Todos os direitos reservados - Caminho do Agro 2025</p>
+    </div>
   </footer>
   <script src="script.js"></script>
 </body>
