@@ -57,7 +57,7 @@ const data = {
 
   milho: [
     { title: "Plantio", desc: "Milho híbrido semeado com densidade de 65 mil plantas/ha e espaçamento de 0,8 m. Adubação balanceada promove alta produtividade.", img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60", icon: "fa-seedling" },
-    { title: "Monitoramento", desc: "Sensoriamento remoto e uso de drones identificam estresse hídrico e pragas, orientando intervenções pontuais.", img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60", icon: "fa-drone" },
+    { title: "Monitoramento", desc: "Sensoriamento remoto e uso de drones identificam estresse hídrico e pragas, orientando intervenções pontuais.", img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60", icon: "fa-magnifying-glass" },
     { title: "Colheita", desc: "Colheitadeiras mecanizadas ajustadas garantem até 15% de umidade. O grão segue para secagem imediata a 13%.", img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60", icon: "fa-tractor" },
     { title: "Processamento", desc: "Moagem para produção de fubá e ingredientes alimentícios, com análise de teor de amido e proteína.", img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60", icon: "fa-industry" },
     { title: "Logística", desc: "Transporte aéreo-graneleiro e armazenagem em silos com controle de temperatura e umidade.", img: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=60", icon: "fa-truck" }

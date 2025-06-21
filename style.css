@@ -309,6 +309,12 @@ body {
 }
 
 /* Footer */
+.container-footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+}
 footer {
   background-color: var(--dark-green);
   display: flex;
