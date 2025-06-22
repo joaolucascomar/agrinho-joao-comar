@@ -403,13 +403,11 @@ footer a {
   .info-card.large {
     margin: 0.5rem;
   }
- /* NavBar responsiva */
   .navbar .container {
     flex-direction: column;
     align-items: flex-start;
     padding: 0.5rem 1rem;
   }
-
   .navbar .nav-links {
     display: flex;
     flex-direction: column;
@@ -417,26 +415,33 @@ footer a {
     margin-top: 0.5rem;
     gap: 0.5rem;
   }
-
   .navbar .nav-links li {
     width: 100%;
     text-align: center;
   }
   .steps-container {
     display: flex;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    padding: 0.5rem 0;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 0.5rem;
+    padding: 0.5rem 0;
+    overflow: visible; 
   }
-
   .steps-container .step {
-    flex: 0 0 auto;
+    flex: 1 1 20%;    
+    max-width: 80px;   
     text-align: center;
-    min-width: 60px; /* ajuste conforme necessidade */
   }
-
   .steps-container .step i {
-    font-size: 1.4rem;
+    font-size: 1.2rem;  
+    display: block;
+    margin: 0 auto 0.25rem;
+  }
+  .steps-container .step.active i {
+    font-size: 1.4rem; 
+  }
+  .steps-container .step span {
+    display: block;
+    font-size: 0.75rem; 
   }
 }
