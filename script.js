@@ -64,8 +64,6 @@ const data = {
   ]
 };
 
-
-
 const DOM = {
   stepsContainer: document.querySelector('.steps-container'),
   productSelect: document.getElementById('productSelect'),
