@@ -65,6 +65,12 @@ body {
   margin-bottom: 4rem;
 }
 
+.info-section-about {
+  background: white;
+  padding: 3rem 0;
+  margin-bottom: 10.1rem;  
+}
+
 .info-section h2 {
   color: var(--main-green);
   text-align: center;
