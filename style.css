@@ -420,28 +420,21 @@ footer a {
     text-align: center;
   }
   .steps-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
     gap: 0.5rem;
     padding: 0.5rem 0;
-    overflow: visible; 
   }
   .steps-container .step {
-    flex: 1 1 20%;    
-    max-width: 80px;   
     text-align: center;
   }
   .steps-container .step i {
-    font-size: 1.2rem;  
+    font-size: 1.4rem;
     display: block;
-    margin: 0 auto 0.25rem;
-  }
-  .steps-container .step.active i {
-    font-size: 1.4rem; 
+    margin-bottom: 0.25rem;
   }
   .steps-container .step span {
-    display: block;
-    font-size: 0.75rem; 
+    font-size: 0.75rem;
   }
 }
