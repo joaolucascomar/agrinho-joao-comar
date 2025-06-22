@@ -391,14 +391,14 @@ footer a {
     gap: 7.5px;
   }
   .step {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
   }
   .step i {
     font-size: 1.6rem;
   }
   .step-label {
-    font-size: 0.8rem;
+    font-size: 0.65rem;
   }
   .text-content h2 {
     font-size: 1.6rem;
