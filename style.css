@@ -426,8 +426,11 @@ footer a {
     gap: 0.5rem;
     padding: 0.5rem 0;
   }
-  .steps-container .step {
-    text-align: center;
+  .steps-container .step:nth-child(4) {
+    grid-column: 1;
+  }
+  .steps-container .step:nth-child(5) {
+    grid-column: 3;
   }
   .steps-container .step i {
     font-size: 1.4rem;
