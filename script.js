@@ -48,19 +48,19 @@ const data = {
   ],
 
   trigo: [
-    { title: "Plantio", desc: "O trigo é semeado em áreas preparadas no outono, aproveitando chuvas para germinação. O solo recebe fertilizantes para garantir desenvolvimento consistente.", img: "./imagens/trigo/1", icon: "fa-wheat-awn" },
-    { title: "Colheita", desc: "Combine harvesters percorrem os campos quando o grão atinge ponto de colheita, separando palha e grãos em uma única operação.", img: "./imagens/trigo/2", icon: "fa-tractor" },
-    { title: "Moagem", desc: "Nos moinhos, o trigo passa por trituração em rolos até virar farinha. A moagem segue padrões para obter a granulação desejada.", img: "./imagens/trigo/3", icon: "fa-industry" },
-    { title: "Empacotamento", desc: "A farinha é acondicionada em sacos resistentes, prontos para uso na panificação e indústria alimentícia.", img: "./imagens/trigo/4", icon: "fa-box" },
-    { title: "Distribuição", desc: "Carretas levam a farinha até padarias e fábricas, seguindo rotas que evitam umidade excessiva para manter qualidade.", img: "./imagens/trigo/5", icon: "fa-truck" }
+    { title: "Plantio", desc: "O trigo é semeado em áreas preparadas no outono, aproveitando chuvas para germinação. O solo recebe fertilizantes para garantir desenvolvimento consistente.", img: "./imagens/trigo/1.jfif", icon: "fa-wheat-awn" },
+    { title: "Colheita", desc: "Combine harvesters percorrem os campos quando o grão atinge ponto de colheita, separando palha e grãos em uma única operação.", img: "./imagens/trigo/2.jfif", icon: "fa-tractor" },
+    { title: "Moagem", desc: "Nos moinhos, o trigo passa por trituração em rolos até virar farinha. A moagem segue padrões para obter a granulação desejada.", img: "./imagens/trigo/3.jfif", icon: "fa-industry" },
+    { title: "Empacotamento", desc: "A farinha é acondicionada em sacos resistentes, prontos para uso na panificação e indústria alimentícia.", img: "./imagens/trigo/4.jfif", icon: "fa-box" },
+    { title: "Distribuição", desc: "Carretas levam a farinha até padarias e fábricas, seguindo rotas que evitam umidade excessiva para manter qualidade.", img: "./imagens/trigo/5.jpg", icon: "fa-truck" }
   ],
 
   milho: [
-    { title: "Plantio", desc: "O milho é plantado em linhas com espaçamento definido para favorecer a ventilação e exposição ao sol. O solo recebe nutrientes balanceados antes da semeadura.", img: "./imagens/milho/1", icon: "fa-seedling" },
-    { title: "Monitoramento", desc: "Drones e sensores verificam crescimento e detectam pragas logo no início. Ação rápida evita perdas sem uso excessivo de defensivos.", img: "./imagens/milho/2", icon: "fa-magnifying-glass" },
-    { title: "Colheita", desc: "Quando os grãos atingem umidade adequada, as colheitadeiras iniciam a colheita. Em seguida, o milho é seco para manter condições ideais de armazenamento.", img: "./imagens/milho/3", icon: "fa-tractor" },
-    { title: "Processamento", desc: "O milho pode virar fubá, ração ou ingredientes industriais. Cada uso passa por processamento simples, sem aditivos complexos.", img: "./imagens/milho/4", icon: "fa-industry" },
-    { title: "Logística", desc: "Grãos são armazenados em silos e enviados por rodovia ou ferrovia, respeitando padrões básicos de umidade e temperatura.", img: "./imagens/milho/5", icon: "fa-truck" }
+    { title: "Plantio", desc: "O milho é plantado em linhas com espaçamento definido para favorecer a ventilação e exposição ao sol. O solo recebe nutrientes balanceados antes da semeadura.", img: "./imagens/milho/1.jfif", icon: "fa-seedling" },
+    { title: "Monitoramento", desc: "Drones e sensores verificam crescimento e detectam pragas logo no início. Ação rápida evita perdas sem uso excessivo de defensivos.", img: "./imagens/milho/2.avif", icon: "fa-magnifying-glass" },
+    { title: "Colheita", desc: "Quando os grãos atingem umidade adequada, as colheitadeiras iniciam a colheita. Em seguida, o milho é seco para manter condições ideais de armazenamento.", img: "./imagens/milho/3.jpg", icon: "fa-tractor" },
+    { title: "Processamento", desc: "O milho pode virar fubá, ração ou ingredientes industriais. Cada uso passa por processamento simples, sem aditivos complexos.", img: "./imagens/milho/4.jpeg", icon: "fa-industry" },
+    { title: "Logística", desc: "Grãos são armazenados em silos e enviados por rodovia ou ferrovia, respeitando padrões básicos de umidade e temperatura.", img: "./imagens/milho/5.jpg", icon: "fa-truck" }
   ]
 };
 
