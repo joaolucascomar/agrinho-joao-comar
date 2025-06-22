@@ -387,6 +387,19 @@ footer a {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+  .steps-container {
+    gap: 7.5px;
+  }
+  .step {
+    width: 60px;
+    height: 60px;
+  }
+  .step i {
+    font-size: 1.6rem;
+  }
+  .step-label {
+    font-size: 0.8rem;
+  }
   .text-content h2 {
     font-size: 1.6rem;
   }
@@ -419,29 +432,4 @@ footer a {
     width: 100%;
     text-align: center;
   }
-  .steps-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    padding: 0.5rem 0;
-  }
-  .steps-container .step {
-    flex: 0 1 calc(33.333% - 0.5rem);
-    text-align: center;
-  }
-  .steps-container .step:nth-child(4) {
-    margin-right: auto;
-  }
-  .steps-container .step:nth-child(5) {
-    margin-left: auto;
-  }
-  .steps-container .step i {
-    display: block;
-    font-size: 1.4rem;
-    margin-bottom: 0.25rem;
-  }
-  .steps-container .step span {
-    font-size: 0.75rem;
-  }
-
 }
