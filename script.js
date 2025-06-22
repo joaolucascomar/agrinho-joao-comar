@@ -8,27 +8,27 @@ const data = {
   ],
 
   cafe: [
-    { title: "Plantio", desc: "O café arábica começa com mudas cultivadas em viveiros protegidos antes de serem transferidas para o campo. As plantações exigem altitudes elevadas, solo bem drenado e climas amenos para desenvolver aroma e sabor próprios.", img: "./imagens/cafe/1", icon: "fa-seedling" },
-    { title: "Colheita", desc: "A colheita é feita manualmente, selecionando apenas os frutos maduros. Essa prática garante qualidade uniforme dos grãos, já que cada fruto atinge a maturação em momentos diferentes.", img: "./imagens/cafe/2", icon: "fa-hand-paper" },
-    { title: "Secagem", desc: "Após a colheita, os grãos são espalhados em terreiros ou estufas para reduzir a umidade até cerca de 11%. Esse processo deve ser lento e controlado para preservar as características do café.", img: "./imagens/cafe/3", icon: "fa-industry" },
-    { title: "Torrefação", desc: "A torrefação transforma os grãos verdes em grãos aromáticos escuros. O calor intenso desenvolve sabores e reduz a acidez natural, resultado em um café pronto para moagem.", img: "./imagens/cafe/4", icon: "fa-mug-hot" },
-    { title: "Comercialização", desc: "Depois de moído ou em grão, o café é embalado e segue para cafeterias, mercados e lojas online. Cada etapa, da fazenda ao consumidor, busca manter a identidade de origem do produto.", img: "./imagens/cafe/5", icon: "fa-mug-saucer" }
+    { title: "Plantio", desc: "O café arábica começa com mudas cultivadas em viveiros protegidos antes de serem transferidas para o campo. As plantações exigem altitudes elevadas, solo bem drenado e climas amenos para desenvolver aroma e sabor próprios.", img: "./imagens/cafe/1.jfif", icon: "fa-seedling" },
+    { title: "Colheita", desc: "A colheita é feita manualmente, selecionando apenas os frutos maduros. Essa prática garante qualidade uniforme dos grãos, já que cada fruto atinge a maturação em momentos diferentes.", img: "./imagens/cafe/2.jpg", icon: "fa-hand-paper" },
+    { title: "Secagem", desc: "Após a colheita, os grãos são espalhados em terreiros ou estufas para reduzir a umidade até cerca de 11%. Esse processo deve ser lento e controlado para preservar as características do café.", img: "./imagens/cafe/3.jfif", icon: "fa-industry" },
+    { title: "Torrefação", desc: "A torrefação transforma os grãos verdes em grãos aromáticos escuros. O calor intenso desenvolve sabores e reduz a acidez natural, resultado em um café pronto para moagem.", img: "./imagens/cafe/4.jfif", icon: "fa-mug-hot" },
+    { title: "Comercialização", desc: "Depois de moído ou em grão, o café é embalado e segue para cafeterias, mercados e lojas online. Cada etapa, da fazenda ao consumidor, busca manter a identidade de origem do produto.", img: "./imagens/cafe/5.jpg", icon: "fa-mug-saucer" }
   ],
 
   soja: [
-    { title: "Plantio", desc: "A soja é semeada em linhas organizadas para otimizar espaço e luz solar. Antes disso, o solo é corrigido com calcário e adubos para fornecer nutrientes essenciais às plantas.", img: "./imagens/soja/1", icon: "fa-seedling" },
-    { title: "Proteção", desc: "Durante o cultivo, técnicos monitoram pragas e doenças. Quando necessário, aplicam defensivos de forma direcionada para proteger a lavoura sem causar danos ao meio ambiente.", img: "./imagens/soja/2", icon: "fa-bug" },
-    { title: "Colheita", desc: "As máquinas de colheita são ajustadas para colher os grãos no ponto certo de umidade. Isso evita perdas e preserva a qualidade dos grãos antes do armazenamento.", img: "./imagens/soja/3", icon: "fa-tractor" },
-    { title: "Processamento", desc: "Depois da colheita, a soja passa por limpeza e separação. O grão pode seguir para extração de óleo ou ser destinado à produção de farelo para ração animal.", img: "./imagens/soja/4", icon: "fa-industry" },
-    { title: "Distribuição", desc: "Óleo e farelo são embalados e enviados por transporte rodoviário e ferroviário até indústrias e fábricas de ração, seguindo normas de armazenamento para manter a qualidade.", img: "./imagens/soja/5", icon: "fa-truck" }
+    { title: "Plantio", desc: "A soja é semeada em linhas organizadas para otimizar espaço e luz solar. Antes disso, o solo é corrigido com calcário e adubos para fornecer nutrientes essenciais às plantas.", img: "./imagens/soja/1.jpg", icon: "fa-seedling" },
+    { title: "Proteção", desc: "Durante o cultivo, técnicos monitoram pragas e doenças. Quando necessário, aplicam defensivos de forma direcionada para proteger a lavoura sem causar danos ao meio ambiente.", img: "./imagens/soja/2.jpg", icon: "fa-bug" },
+    { title: "Colheita", desc: "As máquinas de colheita são ajustadas para colher os grãos no ponto certo de umidade. Isso evita perdas e preserva a qualidade dos grãos antes do armazenamento.", img: "./imagens/soja/3.jfif", icon: "fa-tractor" },
+    { title: "Processamento", desc: "Depois da colheita, a soja passa por limpeza e separação. O grão pode seguir para extração de óleo ou ser destinado à produção de farelo para ração animal.", img: "./imagens/soja/4.jpg", icon: "fa-industry" },
+    { title: "Distribuição", desc: "Óleo e farelo são embalados e enviados por transporte rodoviário e ferroviário até indústrias e fábricas de ração, seguindo normas de armazenamento para manter a qualidade.", img: "./imagens/soja/5.jpg", icon: "fa-truck" }
   ],
 
   carne_bovina: [
-    { title: "Criação", desc: "O gado de corte é criado em pastagens e suplementos alimentares, seguindo práticas de manejo que visam o bem-estar e o ganho saudável de peso.", img: "./imagens/carne_bovina/1", icon: "fa-cow" },
-    { title: "Abate", desc: "Nos frigoríficos, os animais passam por avaliação de qualidade e são abatidos conforme normas sanitárias. O processo busca reduzir o estresse e garantir higiene.", img: "./imagens/carne_bovina/2", icon: "fa-industry" },
-    { title: "Corte e Embalagem", desc: "As peças são cortadas segundo padrões de mercado, embaladas a vácuo e armazenadas em câmaras frias para manter características originais até o consumo.", img: "./imagens/carne_bovina/3", icon: "fa-box" },
-    { title: "Transporte", desc: "Caminhões refrigerados levam a carne até açougues e supermercados, mantendo temperatura controlada para preservar a qualidade sem aditivos desnecessários.", img: "./imagens/carne_bovina/4", icon: "fa-truck" },
-    { title: "Consumo", desc: "O produto é distribuído a açougues, supermercados e restaurantes em todo o país. O consumo per capita de carne bovina no Brasil é de cerca de 37 kg/ano, segundo a ABIEC.", img: "./imagens/carne_bovina/5", icon: "fa-store" }
+    { title: "Criação", desc: "O gado de corte é criado em pastagens e suplementos alimentares, seguindo práticas de manejo que visam o bem-estar e o ganho saudável de peso.", img: "./imagens/leite/1.jfif", icon: "fa-cow" },
+    { title: "Abate", desc: "Nos frigoríficos, os animais passam por avaliação de qualidade e são abatidos conforme normas sanitárias. O processo busca reduzir o estresse e garantir higiene.", img: "./imagens/carne_bovina/2.jfif", icon: "fa-industry" },
+    { title: "Corte e Embalagem", desc: "As peças são cortadas segundo padrões de mercado, embaladas a vácuo e armazenadas em câmaras frias para manter características originais até o consumo.", img: "./imagens/carne_bovina/3.jfif", icon: "fa-box" },
+    { title: "Transporte", desc: "Caminhões refrigerados levam a carne até açougues e supermercados, mantendo temperatura controlada para preservar a qualidade sem aditivos desnecessários.", img: "./imagens/carne_bovina/4.avif", icon: "fa-truck" },
+    { title: "Consumo", desc: "O produto é distribuído a açougues, supermercados e restaurantes em todo o país. O consumo per capita de carne bovina no Brasil é de cerca de 37 kg/ano, segundo a ABIEC.", img: "./imagens/carne_bovina/5.jpg", icon: "fa-store" }
   ],
 
   frango: [
