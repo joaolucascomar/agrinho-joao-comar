@@ -26,5 +26,3 @@
 2. Abra index.html em seu navegador (não é necessário servidor local).
 
 3. Navegue pelas seções no menu ou role até onde desejar explorar.
-
-## Referências de Imagens
