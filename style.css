@@ -111,6 +111,12 @@ body {
   line-height: 1.5;
 }
 
+.info-card.large a {
+  color: var(--dark-green);
+  line-height: 1.5;
+  text-decoration: none;
+}
+
 .flashcards-container {
   display: flex;
   justify-content: center;
