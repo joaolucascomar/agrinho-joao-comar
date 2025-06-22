@@ -66,9 +66,7 @@ body {
 }
 
 .info-section-about {
-  background: white;
-  padding: 3rem 0;
-  margin-bottom: 10.1rem;  
+  margin-bottom: 12.55rem !important;
 }
 
 .info-section h2 {
