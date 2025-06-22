@@ -32,19 +32,19 @@ const data = {
   ],
 
   frango: [
-    { title: "Criação", desc: "O frango de corte cresce em galpões controlados, com alimentação balanceada para desenvolver de forma uniforme e saudável.", img: "./imagens/frango/1", icon: "fa-egg" },
-    { title: "Abate e Resfriamento", desc: "Após a insensibilização, a carcaça é resfriada rapidamente para reduzir a atividade bacteriana. Isso garante segurança alimentar sem processos artificiais.", img: "./imagens/frango/2", icon: "fa-drumstick-bite" },
-    { title: "Processamento", desc: "O frango é desossado e cortado em partes, sendo embalado de forma prática para o consumidor. Métodos simples preservam sabor e valor nutricional.", img: "./imagens/frango/3", icon: "fa-industry" },
-    { title: "Logística", desc: "Em câmaras frias, as peças são organizadas e enviadas com rastreamento básico para garantir que cheguem em boas condições.", img: "./imagens/frango/4", icon: "fa-truck" },
-    { title: "Venda", desc: "O frango orienta consumidores quanto ao preparo, recomendando armazenamento em geladeira ou freezer conforme volume comprado.", img: "./imagens/frango/5", icon: "fa-store" }
+    { title: "Criação", desc: "O frango de corte cresce em galpões controlados, com alimentação balanceada para desenvolver de forma uniforme e saudável.", img: "./imagens/frango/1.jpg", icon: "fa-egg" },
+    { title: "Abate e Resfriamento", desc: "Após a insensibilização, a carcaça é resfriada rapidamente para reduzir a atividade bacteriana. Isso garante segurança alimentar sem processos artificiais.", img: "./imagens/frango/2.jpg", icon: "fa-drumstick-bite" },
+    { title: "Processamento", desc: "O frango é desossado e cortado em partes, sendo embalado de forma prática para o consumidor. Métodos simples preservam sabor e valor nutricional.", img: "./imagens/frango/3.jfif", icon: "fa-industry" },
+    { title: "Logística", desc: "Em câmaras frias, as peças são organizadas e enviadas com rastreamento básico para garantir que cheguem em boas condições.", img: "./imagens/frango/4.jfif", icon: "fa-truck" },
+    { title: "Venda", desc: "O frango orienta consumidores quanto ao preparo, recomendando armazenamento em geladeira ou freezer conforme volume comprado.", img: "./imagens/frango/5.jfif", icon: "fa-store" }
   ],
 
   erva_mate: [
-    { title: "Cultivo", desc: "A erva-mate cresce em regiões subtropicais, com sombreamento natural que ajuda a preservar compostos benéficos.", img: "./imagens/erva_mate/1", icon: "fa-seedling" },
-    { title: "Colheita", desc: "Folhas maduras são coletadas manualmente para manter qualidade. Em seguida, passam por secagem para evitar mofo e preservar aroma característico.", img: "./imagens/erva_mate/2", icon: "fa-hand-paper" },
-    { title: "Beneficiamento", desc: "Após secagem, a erva é triturada e classificada por tamanho. Esse processo define como será utilizada, seja para chimarrão ou chá mate.", img: "./imagens/erva_mate/3", icon: "fa-industry" },
-    { title: "Embalagem", desc: "Embalagens com barreira ao ar mantêm o sabor. Cada lote recebe identificação para rastrear origem e data de produção.", img: "./imagens/erva_mate/4", icon: "fa-box" },
-    { title: "Distribuição", desc: "A erva-mate segue em caixas ventiladas até distribuidores regionais, garantindo chegada sem alterações no produto.", img: "./imagens/erva_mate/5", icon: "fa-truck" }
+    { title: "Cultivo", desc: "A erva-mate cresce em regiões subtropicais, com sombreamento natural que ajuda a preservar compostos benéficos.", img: "./imagens/erva_mate/1.jfif", icon: "fa-seedling" },
+    { title: "Colheita", desc: "Folhas maduras são coletadas manualmente para manter qualidade. Em seguida, passam por secagem para evitar mofo e preservar aroma característico.", img: "./imagens/erva_mate/2.jpg", icon: "fa-hand-paper" },
+    { title: "Beneficiamento", desc: "Após secagem, a erva é triturada e classificada por tamanho. Esse processo define como será utilizada, seja para chimarrão ou chá mate.", img: "./imagens/erva_mate/3.png", icon: "fa-industry" },
+    { title: "Embalagem", desc: "Embalagens com barreira ao ar mantêm o sabor. Cada lote recebe identificação para rastrear origem e data de produção.", img: "./imagens/erva_mate/4.jfif", icon: "fa-box" },
+    { title: "Distribuição", desc: "A erva-mate segue em caixas ventiladas até distribuidores regionais, garantindo chegada sem alterações no produto.", img: "./imagens/erva_mate/5.jpg", icon: "fa-truck" }
   ],
 
   trigo: [
