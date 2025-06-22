@@ -387,19 +387,6 @@ footer a {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
-  .steps-container {
-    gap: 7.5px;
-  }
-  .step {
-    width: 60px;
-    height: 60px;
-  }
-  .step i {
-    font-size: 1.6rem;
-  }
-  .step-label {
-    font-size: 0.8rem;
-  }
   .text-content h2 {
     font-size: 1.6rem;
   }
@@ -412,5 +399,44 @@ footer a {
   }
   footer p {
     font-size: 1rem;
+  }
+  .info-card.large {
+    margin: 0.5rem;
+  }
+ /* NavBar responsiva */
+  .navbar .container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar .nav-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0.5rem;
+    gap: 0.5rem;
+  }
+
+  .navbar .nav-links li {
+    width: 100%;
+    text-align: center;
+  }
+  .steps-container {
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding: 0.5rem 0;
+    gap: 0.5rem;
+  }
+
+  .steps-container .step {
+    flex: 0 0 auto;
+    text-align: center;
+    min-width: 60px; /* ajuste conforme necessidade */
+  }
+
+  .steps-container .step i {
+    font-size: 1.4rem;
   }
 }
